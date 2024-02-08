@@ -1,40 +1,41 @@
 class Solution {
 public:
-    void dfs(int node,vector<int>adj[],vector<int>&visited,stack<int>&st,vector<int>dfsVis)
+    void dfs(int node,vector<int>adj[],vector<int>&vis,vector<int>&pathVis,vector<int>&ans)
     {
-        visited[node]=1;
-        dfsVis[node]=1;
+        vis[node]=1;
+        pathVis[node]=1;
         for(auto it:adj[node])
         {
-            if(!visited[it])
+            if(!vis[it])
             {
-                dfs(it,adj,visited,st,dfsVis);
+                dfs(it,adj,vis,pathVis,ans);
             }
-            if(dfsVis[it])
+            else if(pathVis[it])
             {
                 return ;
             }
         }
-        dfsVis[node]=0;
-        st.push(node);
+        pathVis[node]=0;
+        ans.push_back(node);
+        return ;
     }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<int>visited(numCourses,0);
-        vector<int>dfsVis(numCourses,0);
-        stack<int>st;
-        vector<int> adj[numCourses];
-        for(auto it: prerequisites)
+        vector<int>adj[numCourses];
+        for(auto it:prerequisites)
         {
             adj[it[1]].push_back(it[0]);
         }
+        vector<int>ans;
+        vector<int>vis(numCourses,0);
+        vector<int>pathVis(numCourses,0);
         for(int i=0;i<numCourses;i++)
         {
-            if(!visited[i])
+            if(!vis[i])
             {
-                dfs(i,adj,visited,st,dfsVis);
+                dfs(i,adj,vis,pathVis,ans);
             }
         }
-        if(st.size()==numCourses)
+        if(numCourses==ans.size())
         {
             return true;
         }
