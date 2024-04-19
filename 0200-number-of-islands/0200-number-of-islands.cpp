@@ -2,31 +2,41 @@ class Solution {
 public:
     int dx[4]={-1,0,1,0};
     int dy[4]={0,1,0,-1};
-    void dfs(int row,int col,vector<vector<char>>&grid,vector<vector<int>>&vis,int m,int n)
+    void bfs(int i,int j,vector<vector<char>>&grid,vector<vector<int>>&vis,int m,int n)
     {
-        vis[row][col]=1;
-        for(int i=0;i<4;i++)
+        queue<pair<int,int>>q;
+        q.push({i,j});
+        while(!q.empty())
         {
-            int nrow=row+dx[i];
-            int ncol=col+dy[i];
-            if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && grid[nrow][ncol]=='1'&& !vis[nrow][ncol])
+            int row=q.front().first;
+            int col=q.front().second;
+            q.pop();
+            vis[row][col]=1;
+            for(int k=0;k<4;k++)
             {
-                dfs(nrow,ncol,grid,vis,m,n);
+                int nrow=row+dx[k];
+                int ncol=col+dy[k];
+                if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && !vis[nrow][ncol] && grid[nrow][ncol]=='1')
+                {
+                    q.push({nrow,ncol});
+                    vis[nrow][ncol]=1;
+                }
             }
+            
         }
     }
     int numIslands(vector<vector<char>>& grid) {
         int m=grid.size();
         int n=grid[0].size();
-        int count=0;
         vector<vector<int>>vis(m,vector<int>(n,0));
+        int count=0;
         for(int i=0;i<m;i++)
         {
             for(int j=0;j<n;j++)
             {
-                if(grid[i][j]=='1' && !vis[i][j])
+                if(!vis[i][j] && grid[i][j]=='1')
                 {
-                    dfs(i,j,grid,vis,m,n);
+                    bfs(i,j,grid,vis,m,n);
                     count++;
                 }
             }
