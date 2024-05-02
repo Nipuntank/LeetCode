@@ -30,7 +30,6 @@ public:
     vector<vector<string>> partition(string s) {
         vector<vector<string>>ans;
         vector<string>temp;
-        string str;
         helper(0,s,temp,ans);
         return ans;
     }
