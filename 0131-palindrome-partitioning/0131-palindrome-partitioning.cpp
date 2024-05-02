@@ -1,33 +1,37 @@
 class Solution {
 public:
-    bool isPalindrome(string str) {
-    int left = 0, right = str.length() - 1;
-    while (left < right) {
-        if (str[left++] != str[right--])
+    bool isPalindrome(string st)
+    {
+        int s=0,e=st.size()-1;
+        while(s<e)
+        {
+            if(st[s++]!=st[e--])
             return false;
+        }
+        return true;
     }
-    return true;
-}
-
-void partitionUtil(vector<vector<string>> &res, vector<string> &curr, 
-                   int start, string str) {
-    if (start == str.length()) {
-        res.push_back(curr);
-        return;
-    }
-    for (int i = start; i < str.length(); i++) {
-        if (isPalindrome(str.substr(start, i - start + 1))) {
-            curr.push_back(str.substr(start, i - start + 1));
-            partitionUtil(res, curr, i + 1, str);
-            curr.pop_back();
+    void helper(int i,string s,vector<string>&temp,vector<vector<string>>&ans)
+    {
+        if(i==s.length())
+        {
+            ans.push_back(temp);
+            return ;
+        }
+        for(int j=i;j<s.length();j++)
+        {
+            if(isPalindrome(s.substr(i,j-i+1)))
+            {
+                temp.push_back(s.substr(i,j-i+1));
+                helper(j+1,s,temp,ans);
+                temp.pop_back();
+            }
         }
     }
-}
-
-vector<vector<string>> partition(string str) {
-    vector<vector<string>> res;
-    vector<string> curr;
-    partitionUtil(res, curr, 0, str);
-    return res;
-}
+    vector<vector<string>> partition(string s) {
+        vector<vector<string>>ans;
+        vector<string>temp;
+        string str;
+        helper(0,s,temp,ans);
+        return ans;
+    }
 };
