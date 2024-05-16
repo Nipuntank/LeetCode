@@ -11,23 +11,13 @@
  */
 class Solution {
 public:
-    bool solve(TreeNode *root)
-    {
-        if(root->val==1 || root->val==0)
+    bool evaluateTree(TreeNode* root) {
+        if(root->left==NULL && root->right==NULL)
         {
             return root->val;
         }
-        else if(root->val==2)
-        {
-            return solve(root->left) || solve(root->right);
-        }
-        else if(root->val==3)
-        {
-            return solve(root->left) && solve(root->right);
-        }
-        return true;
-    }
-    bool evaluateTree(TreeNode* root) {
-        return solve(root);
+        bool l=evaluateTree(root->left);
+        bool r=evaluateTree(root->right);
+        return root->val==3?l&&r:l||r;
     }
 };
