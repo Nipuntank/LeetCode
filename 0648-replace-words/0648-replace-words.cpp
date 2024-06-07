@@ -1,13 +1,10 @@
 class TrieNode{
     public:
+    TrieNode *children[26];
     bool isTerminal;
-    char data;
-    TrieNode **children;
-    TrieNode(char data)
+    TrieNode()
     {
-        this->data=data;
         isTerminal=false;
-        children=new TrieNode*[26];
         for(int i=0;i<26;i++)
         {
             children[i]=NULL;
@@ -17,11 +14,10 @@ class TrieNode{
 class Solution {
     TrieNode *root;
 public:
-    Solution()
-    {
-        root=new TrieNode('\0');
+    Solution(){
+        root=new TrieNode();
     }
-    void insert(TrieNode *root,string word)
+    void insertWord(TrieNode *root,string word)
     {
         if(word.size()==0)
         {
@@ -29,24 +25,20 @@ public:
             return ;
         }
         int index=word[0]-'a';
-        TrieNode *child;
         if(root->children[index]==NULL)
         {
-            child=new TrieNode(word[0]);
-            root->children[index]=child;
+            root->children[index]=new TrieNode();
         }
-        else{
-            child=root->children[index];
-        }
-        insert(child,word.substr(1));
+        return insertWord(root->children[index],word.substr(1));
     }
-    void insert(string word){
-        insert(root,word);
+    void insertWord(string word)
+    {
+        insertWord(root,word);
     }
     string search(string word)
     {
         TrieNode *node=root;
-        string ans="";
+        string temp="";
         for(auto it:word)
         {
             int index=it-'a';
@@ -54,10 +46,10 @@ public:
             {
                 return word;
             }
-            ans+=it;
+            temp+=it;
             if(node->children[index]->isTerminal)
             {
-                return ans;
+                return temp;
             }
             node=node->children[index];
         }
@@ -66,7 +58,7 @@ public:
     string replaceWords(vector<string>& dictionary, string sentence) {
         for(auto it:dictionary)
         {
-            insert(it);
+            insertWord(it);
         }
         string result="";
         string word="";
