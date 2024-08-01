@@ -1,32 +1,32 @@
 class Solution {
 public:
-    void helper(int i,int sum,vector<vector<int>>&ans,vector<int>&candidates,vector<int>temp)
+    vector<vector<int>>ans;
+    void helper(vector<int>&candidates,int target,vector<int>temp,int i)
     {
-        if(sum==0)
+        if(target==0)
         {
             ans.push_back(temp);
             return ;
         }
         for(int j=i;j<candidates.size();j++)
         {
-            if(candidates[j]>sum)
+            if(target<candidates[j])
             {
-                break;
+                break ;
             }
             if(j>i && candidates[j]==candidates[j-1])
             {
                 continue;
             }
             temp.push_back(candidates[j]);
-            helper(j+1,sum-candidates[j],ans,candidates,temp);
+            helper(candidates,target-candidates[j],temp,j+1);
             temp.pop_back();
         }
     }
     vector<vector<int>> combinationSum2(vector<int>& candidates, int target) {
-        vector<vector<int>>ans;
         vector<int>temp;
         sort(candidates.begin(),candidates.end());
-        helper(0,target,ans,candidates,temp);
+        helper(candidates,target,temp,0);
         return ans;
     }
 };
