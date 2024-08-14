@@ -11,7 +11,6 @@ public:
         helper(nums,temp,i+1);
         temp.push_back(nums[i]);
         helper(nums,temp,i+1);
-        temp.pop_back();
          
     }
     vector<vector<int>> subsets(vector<int>& nums) {
