@@ -1,11 +1,10 @@
 class Solution {
-    int n=9;
 public:
-    bool isEmpty(vector<vector<char>>&board,int &row,int &col)
+    bool isEmpty(int &row,int &col,vector<vector<char>>&board)
     {
-        for(int i=0;i<n;i++)
+        for(int i=0;i<9;i++)
         {
-            for(int j=0;j<n;j++)
+            for(int j=0;j<9;j++)
             {
                 if(board[i][j]=='.')
                 {
@@ -19,14 +18,14 @@ public:
     }
     bool isSafe(int row,int col,int val,vector<vector<char>>&board)
     {
-        for(int i=0;i<n;i++)
+        for(int i=0;i<9;i++)
         {
             if(board[i][col]==val)
             {
                 return false;
             }
         }
-        for(int j=0;j<n;j++)
+        for(int j=0;j<9;j++)
         {
             if(board[row][j]==val)
             {
@@ -39,20 +38,18 @@ public:
         {
             for(int j=0;j<3;j++)
             {
-                if(board[i+rowF][j+colF]==val)
+                if(board[rowF+i][colF+j]==val)
                 {
                     return false;
                 }
             }
         }
         return true;
-        
-        return true;
     }
     bool isSudoko(vector<vector<char>>&board)
     {
         int row=0,col=0;
-        if(!isEmpty(board,row,col))
+        if(!isEmpty(row,col,board))
         {
             return true;
         }
