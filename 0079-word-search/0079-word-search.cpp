@@ -1,8 +1,8 @@
 class Solution {
 public:
-    int dx[4]={-1,0,1,0};
+    int dx[4]={1,0,-1,0};
     int dy[4]={0,1,0,-1};
-    bool dfs(int row,int col,int k,vector<vector<int>>&vis,vector<vector<char>>&board,string &word,int m,int n)
+    bool dfs(int row,int col,int k,vector<vector<char>>&board,string word,vector<vector<int>>&vis,int m,int n)
     {
         if(k==word.size())
         {
@@ -17,7 +17,7 @@ public:
         {
             int nrow=row+dx[i];
             int ncol=col+dy[i];
-            if(dfs(nrow,ncol,k+1,vis,board,word,m,n))
+            if(dfs(nrow,ncol,k+1,board,word,vis,m,n))
             {
                 return true;
             }
@@ -34,9 +34,9 @@ public:
         {
             for(int j=0;j<n;j++)
             {
-                if(board[i][j]==word[k])
+                if(word[k]==board[i][j])
                 {
-                    if(dfs(i,j,k,vis,board,word,m,n))
+                    if(dfs(i,j,k,board,word,vis,m,n))
                     {
                         return true;
                     }
