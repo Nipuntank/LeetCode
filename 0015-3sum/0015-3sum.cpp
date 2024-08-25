@@ -17,7 +17,6 @@ public:
                 {
                     s.insert({nums[i],nums[j],a});
                 }
-                j=mp.find(nums[j])->second;
             }
         }
         return vector<vector<int>>(s.begin(),s.end());
