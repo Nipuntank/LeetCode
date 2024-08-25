@@ -3,26 +3,21 @@ public:
     set<vector<int>>s;
     vector<vector<int>> threeSum(vector<int>& nums) {
         sort(nums.begin(),nums.end());
+        unordered_map<int,int>mp;
         for(int i=0;i<nums.size();i++)
         {
-            int j=i+1;
-            int k=nums.size()-1;
-            while(j<k)
+            mp[nums[i]]=i;
+        }
+        for(int i=0;i<nums.size()-2;i++)
+        {
+            for(int j=i+1;j<nums.size();j++)
             {
-                int sum=nums[i]+nums[j]+nums[k];
-                if(sum==0)
+                int a=-(nums[i]+nums[j]);
+                if(mp.count(a) && mp.find(a)->second>j)
                 {
-                    s.insert({nums[i],nums[j],nums[k]});
-                    j++;
-                    k--;
+                    s.insert({nums[i],nums[j],a});
                 }
-                else if(sum<0)
-                {
-                    j++;
-                }
-                else{
-                    k--;
-                }
+                j=mp.find(nums[j])->second;
             }
         }
         return vector<vector<int>>(s.begin(),s.end());
