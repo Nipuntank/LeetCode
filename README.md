@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Nipuntank/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Nipuntank/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String
 |  |
@@ -25,4 +26,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Nipuntank/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Nipuntank/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/Nipuntank/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
 <!---LeetCode Topics End-->
