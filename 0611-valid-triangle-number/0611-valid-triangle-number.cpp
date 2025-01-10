@@ -2,23 +2,24 @@ class Solution {
 public:
     int triangleNumber(vector<int>& nums) {
         sort(nums.begin(),nums.end());
-        int n=nums.size();
-        int cnt=0;
-        for(int i=n-1;i>=0;i--)
+        int ans=0;
+        int idx=0;
+        for(int i=0;i<nums.size();i++)
         {
-            int l=0,h=i-1;
-            while(l<h)
+            if(nums[i]==0)
+                idx++;
+            else
+                break;
+        }
+        for(int i=idx;i<nums.size();i++)
+        {
+            for(int j=i+1;j<nums.size();j++)
             {
-                int sum=nums[l]+nums[h];
-                if(sum>nums[i])
-                {
-                    cnt+=h-l;
-                    h--;
-                }
-                else    
-                    l++;
+                int a=nums[i]+nums[j];
+                auto it=lower_bound(nums.begin(),nums.end(),a)-(nums.begin()+j);
+                ans+=(it-1);
             }
         }
-        return cnt;
+        return ans;
     }
 };
