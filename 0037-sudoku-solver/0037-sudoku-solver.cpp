@@ -2,9 +2,9 @@ class Solution {
 public:
     bool isEmpty(int &row,int &col,vector<vector<char>>&board)
     {
-        for(int i=0;i<9;i++)
+        for(int i=0;i<board.size();i++)
         {
-            for(int j=0;j<9;j++)
+            for(int j=0;j<board[0].size();j++)
             {
                 if(board[i][j]=='.')
                 {
@@ -21,16 +21,12 @@ public:
         for(int i=0;i<9;i++)
         {
             if(board[i][col]==val)
-            {
                 return false;
-            }
         }
         for(int j=0;j<9;j++)
         {
             if(board[row][j]==val)
-            {
                 return false;
-            }
         }
         int rowF=row-(row%3);
         int colF=col-(col%3);
@@ -38,15 +34,15 @@ public:
         {
             for(int j=0;j<3;j++)
             {
-                if(board[rowF+i][colF+j]==val)
-                {
+                if(board[i+rowF][j+colF]==val)
                     return false;
-                }
             }
         }
         return true;
+        
+
     }
-    bool isSudoko(vector<vector<char>>&board)
+    bool isSolveSudoku(vector<vector<char>>&board)
     {
         int row=0,col=0;
         if(!isEmpty(row,col,board))
@@ -58,16 +54,14 @@ public:
             if(isSafe(row,col,i,board))
             {
                 board[row][col]=i;
-                if(isSudoko(board))
-                {
+                if(isSolveSudoku(board))
                     return true;
-                }
                 board[row][col]='.';
             }
         }
         return false;
     }
     void solveSudoku(vector<vector<char>>& board) {
-        isSudoko(board);
+        isSolveSudoku(board);
     }
 };
