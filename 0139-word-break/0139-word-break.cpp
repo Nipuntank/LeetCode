@@ -1,28 +1,21 @@
 class Solution {
 public:
-    bool helper(int a,string s,set<string>&map,vector<int>&dp)
-    {
-        if(a==s.size())
+    bool wordBreak(string s, vector<string>& wordDict) {
+        int n=s.size();
+        vector<int>dp(n+1,0);
+        dp[0]=1;
+        set<string>mp(wordDict.begin(),wordDict.end());
+        for(int i=1;i<=n;i++)
         {
-            return true;
-        }
-        if(dp[a]!=-1)
-        {
-            return dp[a];
-        }
-        for(int i=a;i<s.size();i++)
-        {
-            if(map.count(s.substr(a,i+1-a)) && helper(i+1,s,map,dp))
+            for(int j=0;j<i;j++)
             {
-                dp[a]=1;
-                return true;
+                if(dp[j] && mp.count(s.substr(j,i-j)))
+                {
+                    dp[i]=1;
+                    break;
+                }
             }
         }
-        return dp[a]=false;
-    }
-    bool wordBreak(string s, vector<string>& wordDict) {
-        vector<int>dp(s.size(),-1);
-        set<string>map(wordDict.begin(),wordDict.end());
-        return helper(0,s,map,dp);
+        return dp[n];
     }
 };
