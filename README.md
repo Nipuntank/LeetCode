@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Nipuntank/LeetCode/tree/master/0162-find-peak-element) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Nipuntank/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Nipuntank/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Nipuntank/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## String
 |  |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/Nipuntank/LeetCode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Nipuntank/LeetCode/tree/master/0041-first-missing-positive) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Nipuntank/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 ## Backtracking
 |  |
 | ------- |
@@ -91,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Nipuntank/LeetCode/tree/master/0037-sudoku-solver) |
+| [2685-first-completely-painted-row-or-column](https://github.com/Nipuntank/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
 ## Dynamic Programming
 |  |
 | ------- |
