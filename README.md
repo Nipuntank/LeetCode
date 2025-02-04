@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/Nipuntank/LeetCode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nipuntank/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
+| [0406-queue-reconstruction-by-height](https://github.com/Nipuntank/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
 | [0407-trapping-rain-water-ii](https://github.com/Nipuntank/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0854-making-a-large-island](https://github.com/Nipuntank/LeetCode/tree/master/0854-making-a-large-island) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0406-queue-reconstruction-by-height](https://github.com/Nipuntank/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 ## Stack
 |  |
@@ -209,4 +211,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2087-confirmation-rate](https://github.com/Nipuntank/LeetCode/tree/master/2087-confirmation-rate) |
 | [2127-employees-whose-manager-left-the-company](https://github.com/Nipuntank/LeetCode/tree/master/2127-employees-whose-manager-left-the-company) |
 | [2495-number-of-unique-subjects-taught-by-each-teacher](https://github.com/Nipuntank/LeetCode/tree/master/2495-number-of-unique-subjects-taught-by-each-teacher) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0406-queue-reconstruction-by-height](https://github.com/Nipuntank/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
+## Segment Tree
+|  |
+| ------- |
+| [0406-queue-reconstruction-by-height](https://github.com/Nipuntank/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
 <!---LeetCode Topics End-->
