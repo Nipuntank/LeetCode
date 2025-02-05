@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1876-map-of-highest-peak](https://github.com/Nipuntank/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/Nipuntank/LeetCode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1927-maximum-ascending-subarray-sum](https://github.com/Nipuntank/LeetCode/tree/master/1927-maximum-ascending-subarray-sum) |
+| [1984-maximum-distance-between-a-pair-of-values](https://github.com/Nipuntank/LeetCode/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2047-find-a-peak-element-ii](https://github.com/Nipuntank/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2145-grid-game](https://github.com/Nipuntank/LeetCode/tree/master/2145-grid-game) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Nipuntank/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -60,6 +61,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/Nipuntank/LeetCode/tree/master/0162-find-peak-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nipuntank/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
+| [1984-maximum-distance-between-a-pair-of-values](https://github.com/Nipuntank/LeetCode/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2047-find-a-peak-element-ii](https://github.com/Nipuntank/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 ## Divide and Conquer
 |  |
@@ -70,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
+| [1984-maximum-distance-between-a-pair-of-values](https://github.com/Nipuntank/LeetCode/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 ## Greedy
 |  |
 | ------- |
