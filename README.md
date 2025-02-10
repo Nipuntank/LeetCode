@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0041-first-missing-positive](https://github.com/Nipuntank/LeetCode/tree/master/0041-first-missing-positive) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/Nipuntank/LeetCode/tree/master/0162-find-peak-element) |
+| [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nipuntank/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0406-queue-reconstruction-by-height](https://github.com/Nipuntank/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
 | [0407-trapping-rain-water-ii](https://github.com/Nipuntank/LeetCode/tree/master/0407-trapping-rain-water-ii) |
@@ -36,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
+| [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Nipuntank/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Nipuntank/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/Nipuntank/LeetCode/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -45,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
+| [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Nipuntank/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Rolling Hash
 |  |
@@ -128,10 +131,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Nipuntank/LeetCode/tree/master/0037-sudoku-solver) |
+| [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
 ## Matrix
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Nipuntank/LeetCode/tree/master/0037-sudoku-solver) |
+| [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Nipuntank/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/Nipuntank/LeetCode/tree/master/0407-trapping-rain-water-ii) |
 | [0854-making-a-large-island](https://github.com/Nipuntank/LeetCode/tree/master/0854-making-a-large-island) |
