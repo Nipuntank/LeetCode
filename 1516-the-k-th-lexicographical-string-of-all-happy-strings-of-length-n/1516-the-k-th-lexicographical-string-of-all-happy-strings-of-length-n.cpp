@@ -1,30 +1,28 @@
 class Solution {
 public:
-    string ans;
-    void helper(vector<char>&arr,string temp,int len,int &k,int n)
-    {
-        if(len==n)
+    string getHappyString(int n, int k) {
+        if(k>(3<<(n-1)))
+            return "";
+        queue<string>q;
+        q.push("");
+        while(k)
         {
-            if(--k==0)
-                ans=temp;
-            return ;
-        }
-        for(int i=0;i<3;i++)
-        {
-            if(len==0 || temp.back()!=arr[i])
+            string curr=q.front();
+            q.pop();
+            for(char c='a';c<='c';c++)
             {
-                temp.push_back(arr[i]);
-                helper(arr,temp,len+1,k,n);
-                temp.pop_back();
-               
-                
+                if(curr.empty() || curr.back()!=c)
+                {
+                    q.push(curr+c);
+                    if(curr.size()==n-1)
+                    {
+                        k--;
+                    }
+                }
+                if(k==0)
+                    break;
             }
         }
-    }
-    string getHappyString(int n, int k) {
-        vector<char>arr={'a','b','c'};
-        ans="";
-        helper(arr,"",0,k,n);
-        return ans;
+        return q.back();
     }
 };
