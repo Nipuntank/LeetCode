@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/Nipuntank/LeetCode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
 | [1160-letter-tile-possibilities](https://github.com/Nipuntank/LeetCode/tree/master/1160-letter-tile-possibilities) |
@@ -174,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0072-edit-distance](https://github.com/Nipuntank/LeetCode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
 | [0300-longest-increasing-subsequence](https://github.com/Nipuntank/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 ## Memoization
