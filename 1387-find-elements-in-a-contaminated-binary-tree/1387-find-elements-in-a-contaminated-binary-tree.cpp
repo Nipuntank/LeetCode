@@ -11,9 +11,9 @@
  */
 class FindElements {
     TreeNode *node;
+    unordered_map<int,int>mp;
 public:
-    void helper(TreeNode *root)
-    {
+    FindElements(TreeNode* root) {
         queue<pair<TreeNode*,int>>q;
         q.push({root,0});
         while(!q.empty())
@@ -21,6 +21,7 @@ public:
             auto[node,idx]=q.front();
             q.pop();
             node->val=idx;
+            mp[idx]++;
             if(node->left)
             {
                 q.push({node->left,idx*2+1});
@@ -31,21 +32,8 @@ public:
             }
         }
     }
-    FindElements(TreeNode* root) {
-        node=root;
-        helper(node);
-    }
-    bool find(TreeNode *root,int val)
-    {
-        if(!root)
-            return false;
-        if(root->val==val)
-            return true;
-        return find(root->left,val) || find(root->right,val);
-        
-    }
     bool find(int target) {
-        return find(node,target);
+        return mp[target];
     }
 };
 
