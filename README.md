@@ -118,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -126,12 +127,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Nipuntank/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Nipuntank/LeetCode/tree/master/0854-making-a-large-island) |
 | [0922-possible-bipartition](https://github.com/Nipuntank/LeetCode/tree/master/0922-possible-bipartition) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Nipuntank/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Nipuntank/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 ## Binary Tree
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Hash Table
 |  |
 | ------- |
@@ -141,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/Nipuntank/LeetCode/tree/master/1145-number-of-submatrices-that-sum-to-target) |
 | [1160-letter-tile-possibilities](https://github.com/Nipuntank/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1364-tuple-with-same-product](https://github.com/Nipuntank/LeetCode/tree/master/1364-tuple-with-same-product) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Nipuntank/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
 | [2107-find-unique-binary-string](https://github.com/Nipuntank/LeetCode/tree/master/2107-find-unique-binary-string) |
 | [2448-count-number-of-bad-pairs](https://github.com/Nipuntank/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
@@ -193,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Nipuntank/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Nipuntank/LeetCode/tree/master/0854-making-a-large-island) |
 | [0922-possible-bipartition](https://github.com/Nipuntank/LeetCode/tree/master/0922-possible-bipartition) |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Nipuntank/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1876-map-of-highest-peak](https://github.com/Nipuntank/LeetCode/tree/master/1876-map-of-highest-peak) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Nipuntank/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -293,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Nipuntank/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
 ## Data Stream
 |  |
