@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/Nipuntank/LeetCode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1160-letter-tile-possibilities](https://github.com/Nipuntank/LeetCode/tree/master/1160-letter-tile-possibilities) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/Nipuntank/LeetCode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1915-check-if-one-string-swap-can-make-strings-equal](https://github.com/Nipuntank/LeetCode/tree/master/1915-check-if-one-string-swap-can-make-strings-equal) |
@@ -118,6 +119,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Depth-First Search
 |  |
@@ -127,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0820-find-eventual-safe-states](https://github.com/Nipuntank/LeetCode/tree/master/0820-find-eventual-safe-states) |
 | [0854-making-a-large-island](https://github.com/Nipuntank/LeetCode/tree/master/0854-making-a-large-island) |
 | [0922-possible-bipartition](https://github.com/Nipuntank/LeetCode/tree/master/0922-possible-bipartition) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/Nipuntank/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Nipuntank/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
@@ -134,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/0094-binary-tree-inorder-traversal) |
+| [1093-recover-a-tree-from-preorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1387-find-elements-in-a-contaminated-binary-tree](https://github.com/Nipuntank/LeetCode/tree/master/1387-find-elements-in-a-contaminated-binary-tree) |
 ## Hash Table
 |  |
