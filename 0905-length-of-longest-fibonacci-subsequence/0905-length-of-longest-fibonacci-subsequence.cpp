@@ -1,27 +1,30 @@
 class Solution {
 public:
-    int lenLongestFibSubseq(vector<int>& arr) {
-        int n =arr.size();
-        vector<vector<int>>dp(n,vector<int>(n,0));
-        int len=0;
-        for(int i=2;i<n;i++)
+    int helper(vector<int>&arr,int a,int b,int n)
+    {
+        int idx=lower_bound(arr.begin(),arr.end(),a+b)-arr.begin();
+        if(idx<n && arr[idx]==a+b)
         {
-            int s=0,e=i-1;
-            while(s<e)
+            return 1+helper(arr,b,a+b,n);
+        }
+        return 0;
+
+    }
+    int lenLongestFibSubseq(vector<int>& arr) {
+        int n=arr.size();
+        int maxlen=0;
+        for(int i=0;i<n-1;i++)
+        {
+            for(int j=i+1;j<n;j++)
             {
-                int sum=arr[s]+arr[e];
-                if(sum>arr[i])
-                    e--;
-                else if(sum<arr[i])
-                    s++;
-                else{
-                    dp[e][i]=dp[s][e]+1;
-                    len=max(dp[e][i],len);
-                    e--;
-                    s++;
-                }
+                int a=arr[i];
+                int b=arr[j];
+                int len=helper(arr,a,b,n);
+                if(len>0)
+                    maxlen=max(maxlen,2+len);
+
             }
         }
-        return len==0?0:len+2;
+        return maxlen;
     }
 };
