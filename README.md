@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0300-longest-increasing-subsequence](https://github.com/Nipuntank/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0406-queue-reconstruction-by-height](https://github.com/Nipuntank/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
 | [0407-trapping-rain-water-ii](https://github.com/Nipuntank/LeetCode/tree/master/0407-trapping-rain-water-ii) |
+| [0455-assign-cookies](https://github.com/Nipuntank/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0854-making-a-large-island](https://github.com/Nipuntank/LeetCode/tree/master/0854-making-a-large-island) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/Nipuntank/LeetCode/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -101,11 +102,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/Nipuntank/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/Nipuntank/LeetCode/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 ## Greedy
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/Nipuntank/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Nipuntank/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/Nipuntank/LeetCode/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -113,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0406-queue-reconstruction-by-height](https://github.com/Nipuntank/LeetCode/tree/master/0406-queue-reconstruction-by-height) |
+| [0455-assign-cookies](https://github.com/Nipuntank/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Nipuntank/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 ## Stack
