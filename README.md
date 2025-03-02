@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2551-apply-operations-to-an-array](https://github.com/Nipuntank/LeetCode/tree/master/2551-apply-operations-to-an-array) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/Nipuntank/LeetCode/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Nipuntank/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Nipuntank/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2737-row-with-maximum-ones](https://github.com/Nipuntank/LeetCode/tree/master/2737-row-with-maximum-ones) |
 | [2764-maximum-number-of-fish-in-a-grid](https://github.com/Nipuntank/LeetCode/tree/master/2764-maximum-number-of-fish-in-a-grid) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/Nipuntank/LeetCode/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -107,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/Nipuntank/LeetCode/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2551-apply-operations-to-an-array](https://github.com/Nipuntank/LeetCode/tree/master/2551-apply-operations-to-an-array) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Nipuntank/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 ## Greedy
 |  |
 | ------- |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2448-count-number-of-bad-pairs](https://github.com/Nipuntank/LeetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/Nipuntank/LeetCode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2685-first-completely-painted-row-or-column](https://github.com/Nipuntank/LeetCode/tree/master/2685-first-completely-painted-row-or-column) |
+| [2707-merge-two-2d-arrays-by-summing-values](https://github.com/Nipuntank/LeetCode/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/Nipuntank/LeetCode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 ## Backtracking
 |  |
