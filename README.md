@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Nipuntank/LeetCode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Nipuntank/LeetCode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
 | [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Nipuntank/LeetCode/tree/master/0044-wildcard-matching) |
 | [0455-assign-cookies](https://github.com/Nipuntank/LeetCode/tree/master/0455-assign-cookies) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/Nipuntank/LeetCode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Nipuntank/LeetCode/tree/master/0044-wildcard-matching) |
 | [0064-minimum-path-sum](https://github.com/Nipuntank/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/Nipuntank/LeetCode/tree/master/0072-edit-distance) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
@@ -342,4 +345,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1477-product-of-the-last-k-numbers](https://github.com/Nipuntank/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/Nipuntank/LeetCode/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
