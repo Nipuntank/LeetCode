@@ -22,6 +22,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/Nipuntank/LeetCode/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0967-minimum-falling-path-sum](https://github.com/Nipuntank/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1145-number-of-submatrices-that-sum-to-target](https://github.com/Nipuntank/LeetCode/tree/master/1145-number-of-submatrices-that-sum-to-target) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Nipuntank/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1364-tuple-with-same-product](https://github.com/Nipuntank/LeetCode/tree/master/1364-tuple-with-same-product) |
 | [1396-count-servers-that-communicate](https://github.com/Nipuntank/LeetCode/tree/master/1396-count-servers-that-communicate) |
 | [1477-product-of-the-last-k-numbers](https://github.com/Nipuntank/LeetCode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -101,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/Nipuntank/LeetCode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/Nipuntank/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0611-valid-triangle-number](https://github.com/Nipuntank/LeetCode/tree/master/0611-valid-triangle-number) |
+| [1335-maximum-candies-allocated-to-k-children](https://github.com/Nipuntank/LeetCode/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1984-maximum-distance-between-a-pair-of-values](https://github.com/Nipuntank/LeetCode/tree/master/1984-maximum-distance-between-a-pair-of-values) |
 | [2047-find-a-peak-element-ii](https://github.com/Nipuntank/LeetCode/tree/master/2047-find-a-peak-element-ii) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/Nipuntank/LeetCode/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
