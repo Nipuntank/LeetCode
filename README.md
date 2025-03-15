@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Nipuntank/LeetCode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0036-valid-sudoku](https://github.com/Nipuntank/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Nipuntank/LeetCode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Nipuntank/LeetCode/tree/master/0041-first-missing-positive) |
 | [0064-minimum-path-sum](https://github.com/Nipuntank/LeetCode/tree/master/0064-minimum-path-sum) |
@@ -177,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Nipuntank/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Nipuntank/LeetCode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/Nipuntank/LeetCode/tree/master/0041-first-missing-positive) |
 | [0139-word-break](https://github.com/Nipuntank/LeetCode/tree/master/0139-word-break) |
@@ -209,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Nipuntank/LeetCode/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Nipuntank/LeetCode/tree/master/0037-sudoku-solver) |
 | [0064-minimum-path-sum](https://github.com/Nipuntank/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0212-word-search-ii](https://github.com/Nipuntank/LeetCode/tree/master/0212-word-search-ii) |
