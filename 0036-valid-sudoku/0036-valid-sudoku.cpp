@@ -16,7 +16,6 @@ public:
                 col[j].insert(val);
                 box[boxIndex].insert(val);
             }
-
         }
         return true;
 
